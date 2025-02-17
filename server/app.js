@@ -6,12 +6,12 @@ const cors = require("cors")
 const port = 3000;
 
 const apiKeys = {
-    publicKey: "YOUR_PUBLIC_KEY",
-    privateKey: "YOUR_PRIVATE_KEY"
+    publicKey: "BPcuV_W4ydMltMjJpBXT1lLAVkNkhnD61KQbIUxqWYOeBb6OaB9XEsp7H6zP_TSbjnTF6qdOn0wSeoGBqwiRUWE",
+    privateKey: "TyJr2FetditQ0F1xsWvXkaTpRde89OM2lcfP-MDEdy4"
 }
 
 webpush.setVapidDetails(
-    'mailto:YOUR_MAILTO_STRING',
+    'mailto:eren.yeager.founding.titan.9@gmail.com',
     apiKeys.publicKey,
     apiKeys.privateKey
 )
