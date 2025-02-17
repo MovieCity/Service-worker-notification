@@ -32,7 +32,7 @@ app.post("/save-subscription", (req, res) => {
 })
 
 app.get("/send-notification", (req, res) => {
-    webpush.sendNotification(subDatabse[0], "Hello world");
+    webpush.sendNotification(subDatabse[0], "https://ik.imagekit.io/Eren/Attack_on_Titan_Season_1.jpg?updatedAt=1739714374040");
     res.json({ "statue": "Success", "message": "Message sent to push service" });
 })
 
