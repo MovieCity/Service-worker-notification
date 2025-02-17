@@ -1,6 +1,6 @@
 name = "notification"
 type = "javascript"
-account_id = "176a268f59a3abc41629467046ae449c"  # Optional (only for specific zones)
+account_id = "176a268f59a3abc41629467046ae449c" 
 compatibility_date = "2024-01-01"
 
 [build]
@@ -15,3 +15,4 @@ dir = "server"
 workers_dev = false
 name = "notification-production"
 command = "node app.js"
+port = 3000  # Add this line to specify the port
