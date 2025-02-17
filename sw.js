@@ -35,5 +35,5 @@ self.addEventListener("activate", async (e) => {
 })
 
 self.addEventListener("push", e => {
-    self.registration.showNotification("Only Anime i love", { body: e.data.text() })
+    self.registration.showNotification("Only Anime i love", { body: e.data.text(), image: "https://ik.imagekit.io/Eren/Attack_on_Titan_Season_1.jpg?updatedAt=1739714374040" })
 })
