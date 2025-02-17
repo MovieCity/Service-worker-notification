@@ -35,5 +35,5 @@ self.addEventListener("activate", async (e) => {
 })
 
 self.addEventListener("push", e => {
-    self.registration.showNotification("Wohoo!!", { body: e.data.text() })
+    self.registration.showNotification("Only Anime i love", { body: e.data.text() })
 })
