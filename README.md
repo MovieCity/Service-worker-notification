@@ -4,4 +4,3 @@
 - This will host the server on `localhost:3000`.
 - Similarly, use any live server extension to run the html file on a separate port.
 
-- Custom html `Style not good`
