@@ -35,5 +35,5 @@ self.addEventListener("activate", async (e) => {
 })
 
 self.addEventListener("push", e => {
-    self.registration.showNotification("Only Anime i love", { body: e.data.text(), image: "https://ik.imagekit.io/Eren/Attack_on_Titan_Season_1.jpg?updatedAt=1739714374040" })
+    self.registration.showNotification("Only Anime i love", { body: e.data.text(), icon: "https://w7.pngwing.com/pngs/897/606/png-transparent-attack-on-titans-survey-corps-logo-a-o-t-wings-of-freedom-logo-attack-on-titan-corps-freedom-miscellaneous-angle-emblem-thumbnail.png", image: "https://ik.imagekit.io/Eren/Attack_on_Titan_Season_1.jpg?updatedAt=1739714374040" })
 })
