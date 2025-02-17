@@ -1,0 +1,17 @@
+name = "notification"
+type = "javascript"
+account_id = "176a268f59a3abc41629467046ae449c"  # Optional (only for specific zones)
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm install"
+upload_dir = "server"
+
+[build.upload]
+format = "service-worker"
+dir = "server"
+
+[env.production]
+workers_dev = false
+name = "notification-production"
+command = "node app.js"
